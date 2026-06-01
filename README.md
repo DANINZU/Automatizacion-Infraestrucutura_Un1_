@@ -171,7 +171,7 @@ Se creó y ejecutó el archivo `stack-hdbg.yml` (Actividad 2) con todos los serv
 ```shell
 docker-compose -f stack-hdbg.yml up -d
 ```
- 
+
 ![Docker ps](docker_ps.png)
  
 ---
@@ -237,7 +237,7 @@ volumes:
   dbfiles:
 ```
  
-![stack-hdbg.yml](visualyaml.png)
+![stack-hdbg.yml](terminal_docker.png)
  
 ---
  
@@ -281,8 +281,7 @@ EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
 ```
  
-![Dockerfile frontend](docker.png)
-![nginx.conf](ngnix.png)
+![Dockerfile frontend](terminal_docker.png)
  
 ---
  
@@ -295,7 +294,8 @@ Una vez ejecutado el comando `docker-compose up`, los cuatro servicios se desple
 **Frontend — Sistema de Ventas** (`http://localhost/home`)
 - Usuario: `admin`
 - Contraseña: `12345678`
-![Frontend Sistema de Ventas](./images/sistema.png)
+
+![Frontend Sistema de Ventas](pagina.png)
  
 **Backend — API Node.js** (`http://localhost:8080`)
  
@@ -304,7 +304,7 @@ Una vez ejecutado el comando `docker-compose up`, los cuatro servicios se desple
 **PhpMyAdmin** (`http://localhost:9090`)
  
 ![PhpMyAdmin login](php.png)
-![PhpMyAdmin base de datos](pagina.png)
+![PhpMyAdmin base de datos](sistema.png)
  
 ---
  
